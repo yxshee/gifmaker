@@ -7,11 +7,8 @@
   <img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey?style=flat-square" alt="License"/>
 </p>
 
-<!-- ASCII Logo -->
-<p align="center">
-  <img src="https://readme-arts.vercel.app/api/ascii?text=GIFMAKER&font=Big" alt="GIFMaker Logo" />
-</p>
 
+<h1 align="center">🎬 GIFMaker AI Studio</h1>
 <p align="center"><b>Turn your ideas into magical animated doodles with the power of AI!</b></p>
 
 ---
