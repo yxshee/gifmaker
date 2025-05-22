@@ -7,16 +7,16 @@
   <img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey?style=flat-square" alt="License"/>
 </p>
 
-<div align="center">
-  <img src="https://readme-arts.vercel.app/api/text?text=GIFMaker&gradient=true&colors=8a2be2,ff7bac,4b0082" alt="GIFMaker" width="400"/>
-</div>
 
-<h1 align="center">✨ Magical GIF Maker</h1>
+
+<h1 align="center"> GIF Maker</h1>
 <p align="center"><b>Turn your text prompts into charming animated doodles with Gemini AI!</b></p>
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400/8a2be2/ffffff?text=Animated+Doodle+GIF+Maker" alt="Demo GIF" width="80%" style="border-radius:12px;margin:20px 0"/>
+  <img src="https://github.com/user-attachments/assets/89b18abd-98d3-4514-a2c6-3df601986907" alt="Demo GIF" width="40%" style="border-radius:12px;margin:20px 0"/>
 </div>
+
+
 
 ---
 
