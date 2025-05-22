@@ -58,7 +58,7 @@ Welcome to **GIFMaker AI Studio** – your one-stop solution for creating, editi
 
 <!-- Replace with your own screenshots -->
 <p align="center">
-  <img src="docs/screenshot1.png" alt="Main UI" width="600"/>
+  <img src="assets/image.png" alt="Main UI" width="60%"/>
   <br/>
   <em>Main interface of GIFMaker AI Studio</em>
 </p>
