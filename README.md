@@ -1,15 +1,22 @@
-> AI-powered app to generate, edit, and share GIFs from text prompts with a modern UI.
+> AI-powered app to generate, edit, and share GIFs from text prompts with Gemini AI.
 
 <!-- Badges -->
 <p align="center">
-  <img src="https://img.shields.io/badge/AI-Gemini-blueviolet?style=flat-square" alt="Gemini AI"/>
-  <img src="https://img.shields.io/badge/Made%20with-TypeScript-3178c6?style=flat-square" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/AI-Gemini_2.0-blueviolet?style=flat-square" alt="Gemini AI"/>
+  <img src="https://img.shields.io/badge/Built_with-TypeScript-3178c6?style=flat-square" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey?style=flat-square" alt="License"/>
 </p>
 
+<div align="center">
+  <img src="https://readme-arts.vercel.app/api/text?text=GIFMaker&gradient=true&colors=8a2be2,ff7bac,4b0082" alt="GIFMaker" width="400"/>
+</div>
 
-<h1 align="center">🎬 GIFMaker AI Studio</h1>
-<p align="center"><b>Turn your ideas into magical animated doodles with the power of AI!</b></p>
+<h1 align="center">✨ Magical GIF Maker</h1>
+<p align="center"><b>Turn your text prompts into charming animated doodles with Gemini AI!</b></p>
+
+<div align="center">
+  <img src="https://via.placeholder.com/800x400/8a2be2/ffffff?text=Animated+Doodle+GIF+Maker" alt="Demo GIF" width="80%" style="border-radius:12px;margin:20px 0"/>
+</div>
 
 ---
 
@@ -17,18 +24,18 @@
 
 <div align="center">
 
-| 🚀 | **AI GIF Creation** | Generate GIFs from text prompts using Gemini AI |
-|----|--------------------|------------------------------------------------|
-| 🎨 | **Edit & Customize** | Crop, resize, add captions, and apply filters  |
-| 👀 | **Instant Preview**  | See your GIFs update in real-time as you edit  |
-| 📤 | **Easy Sharing**     | Download or share your creations instantly     |
-| 💎 | **Modern UI**        | Responsive, intuitive, and beautiful interface |
+| 🧙‍♂️ | **AI-Powered Doodles** | Generate animated doodle GIFs from text using Gemini 2.0 |
+|----|----------------------|----------------------------------------------------------|
+| 🖼️ | **Frame-by-Frame**    | Watch the animation build with real-time frame generation |
+| 🔄 | **Smooth Animation**  | Automatically creates smooth GIFs from generated frames   |
+| 💾 | **Easy Download**     | Save your magical creations with one click                |
+| 🎨 | **Beautiful UI**      | Clean, responsive interface with light/dark mode support  |
 
 </div>
 
 ---
 
-## 🖼️ Screenshots
+## 🎬 How it Works
 
  <div align="center">
   <img src="assets/01.png" alt="Main UI" width="49%" style="border-radius:12px;box-shadow:0 4px 20px #8a2be233;">
@@ -43,11 +50,13 @@
 
 ```mermaid
 flowchart LR
-    A[User enters prompt] --> B[Gemini AI generates doodle frames]
-    B --> C[Frames previewed in UI]
+    A[Type your prompt] --> B[Gemini generates frames]
+    B --> C[View individual frames]
     C --> D[Frames combined into GIF]
-    D --> E[Download or Share GIF]
+    D --> E[Download your creation]
 ```
+
+</div>
 
 ---
 
@@ -84,38 +93,58 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to start cre
 
 ---
 
-## 🗂️ Project Structure
+## 🗂️ Actual Project Structure
 
 ```plaintext
 gifmaker/
-├── components/      # React components
-├── pages/           # Next.js pages
-├── public/          # Static assets
-├── styles/          # CSS/SCSS files
-├── utils/           # Utility functions
-├── .env.local       # Environment variables
+├── src/             # Source files
+│   ├── index.tsx    # Main application code
+│   └── index.css    # Styles
+├── index.html       # HTML entry point
+├── .env.local       # Environment variables for API key
+├── vite.config.ts   # Vite configuration
+├── tsconfig.json    # TypeScript configuration
+├── package.json     # Dependencies and scripts
 └── ...
 ```
 
 ---
 
-## 🛠️ Usage
+## 🛠️ How to Use
 
-- **Create GIF:** Enter a prompt and let the AI generate a GIF.
-- **Edit GIF:** Use the built-in editor to tweak your GIF.
-- **Download/Share:** Save your GIF or share it with friends.
+<div align="center">
+  <table>
+    <tr>
+      <td width="33%">
+        <img src="https://via.placeholder.com/300/8a2be2/ffffff?text=1.+Enter+Prompt" style="border-radius:8px"/>
+        <p align="center">Enter your creative prompt</p>
+      </td>
+      <td width="33%">
+        <img src="https://via.placeholder.com/300/8a2be2/ffffff?text=2.+Generate" style="border-radius:8px"/>
+        <p align="center">Click "Generate Magic"</p>
+      </td>
+      <td width="33%">
+        <img src="https://via.placeholder.com/300/8a2be2/ffffff?text=3.+Download" style="border-radius:8px"/>
+        <p align="center">Download your GIF!</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+### Example Prompts to Try
+
+- "a cat playing with yarn"
+- "a rocket launching into space"
+- "a dolphin jumping through waves"
+- "a dancing robot"
 
 ---
 
-## 🤝 Contributing
+## 🧠 Tech Under the Hood
 
-Contributions are welcome! Please open an issue or submit a pull request.
-
-1. Fork the repo
-2. Create your feature branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Open a Pull Request
+- **Gemini AI**: Powers the image generation with the `gemini-2.0-flash-preview-image-generation` model
+- **gifenc**: Processes and combines frames into smooth GIFs
+- **Vite**: Fast, modern frontend tooling
 
 ---
 
@@ -125,13 +154,17 @@ CC0 1.0 Universal. See [LICENSE](LICENSE) for details.
 
 ---
 
-## 🙋‍♂️ Support
+## 🙋‍♂️ Support & Contribution
 
-For questions or feedback, open an issue or contact the maintainer.
+Got an idea or found a bug? Feel free to:
+- Open an issue
+- Submit a pull request
+- Star the repository!
 
 ---
 
 <p align="center">
-
-  <b>Made with ❤️ and AI magic</b>
+  <img src="https://readme-arts.vercel.app/api/shapes?type=spacer&height=40&width=600&fill=transparent" alt="spacer"/>
+  <br/>
+  <b>Made with ✨ AI magic and human creativity</b>
 </p>
