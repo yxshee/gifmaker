@@ -12,7 +12,6 @@
   <img src="https://readme-arts.vercel.app/api/ascii?text=GIFMAKER&font=Big" alt="GIFMaker Logo" />
 </p>
 
-<h1 align="center">🎬 GIFMaker AI Studio</h1>
 <p align="center"><b>Turn your ideas into magical animated doodles with the power of AI!</b></p>
 
 ---
