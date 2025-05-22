@@ -1,3 +1,5 @@
+> AI-powered app to generate, edit, and share GIFs from text prompts with a modern UI.
+
 # 🎬 GIFMaker
 
 Welcome to **GIFMaker AI Studio** – your one-stop solution for creating, editing, and sharing GIFs powered by AI! 🚀
