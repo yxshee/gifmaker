@@ -1,18 +1,57 @@
+> AI-powered app to generate, edit, and share GIFs from text prompts with a modern UI.
 
+<!-- Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Gemini-blueviolet?style=flat-square" alt="Gemini AI"/>
+  <img src="https://img.shields.io/badge/Made%20with-TypeScript-3178c6?style=flat-square" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey?style=flat-square" alt="License"/>
+</p>
 
-# 🎬 GIFMaker
+<!-- ASCII Logo -->
+<p align="center">
+  <img src="https://readme-arts.vercel.app/api/ascii?text=GIFMAKER&font=Big" alt="GIFMaker Logo" />
+</p>
 
-Welcome to **GIFMaker AI Studio** – your one-stop solution for creating, editing, and sharing GIFs powered by AI! 🚀
+<h1 align="center">🎬 GIFMaker AI Studio</h1>
+<p align="center"><b>Turn your ideas into magical animated doodles with the power of AI!</b></p>
 
 ---
 
 ## ✨ Features
 
-- **AI-Powered GIF Creation:** Generate GIFs from text prompts using Gemini AI.
-- **Edit & Customize:** Crop, resize, add captions, and apply filters to your GIFs.
-- **Instant Preview:** See your GIFs update in real-time as you edit.
-- **Easy Sharing:** Download or share your creations directly from the app.
-- **Modern UI:** Responsive, intuitive, and beautiful interface.
+<div align="center">
+
+| 🚀 | **AI GIF Creation** | Generate GIFs from text prompts using Gemini AI |
+|----|--------------------|------------------------------------------------|
+| 🎨 | **Edit & Customize** | Crop, resize, add captions, and apply filters  |
+| 👀 | **Instant Preview**  | See your GIFs update in real-time as you edit  |
+| 📤 | **Easy Sharing**     | Download or share your creations instantly     |
+| 💎 | **Modern UI**        | Responsive, intuitive, and beautiful interface |
+
+</div>
+
+---
+
+## 🖼️ Screenshots
+
+<div align="center">
+  <img src="docs/screenshot1.png" alt="Main UI" width="350" style="border-radius:12px;box-shadow:0 4px 20px #8a2be233;">
+  <img src="docs/screenshot2.png" alt="GIF Output" width="350" style="border-radius:12px;box-shadow:0 4px 20px #8a2be233;">
+  <br/>
+  <em>Gallery: Main interface and generated GIF output</em>
+</div>
+
+---
+
+## 🌀 How it Works
+
+```mermaid
+flowchart LR
+    A[User enters prompt] --> B[Gemini AI generates doodle frames]
+    B --> C[Frames previewed in UI]
+    C --> D[Frames combined into GIF]
+    D --> E[Download or Share GIF]
+```
 
 ---
 
@@ -20,44 +59,38 @@ Welcome to **GIFMaker AI Studio** – your one-stop solution for creating, editi
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v16 or higher recommended)
+- [Node.js](https://nodejs.org/) (v16 or higher)
 - A [Gemini API Key](https://ai.google.dev/)
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/gifmaker.git
-   cd gifmaker
-   ```
+```bash
+git clone https://github.com/your-username/gifmaker.git
+cd gifmaker
+npm install
+```
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+### Configuration
 
-3. **Configure Environment Variables**
+Create a `.env.local` file in the root directory and add your Gemini API key:
 
-   Create a `.env.local` file in the root directory and add your Gemini API key:
-   ```
-   GEMINI_API_KEY=your-gemini-api-key-here
-   ```
+```env
+GEMINI_API_KEY=your-gemini-api-key-here
+```
 
-4. **Run the app locally**
-   ```bash
-   npm run dev
-   ```
+### Run Locally
 
-5. **Open in your browser**
+```bash
+npm run dev
+```
 
-   Visit [http://localhost:3000](http://localhost:3000) to start creating GIFs!
+Open [http://localhost:3000](http://localhost:3000) in your browser to start creating GIFs!
 
 ---
 
+## 🗂️ Project Structure
 
-## 📦 Project Structure
-
-```
+```plaintext
 gifmaker/
 ├── components/      # React components
 ├── pages/           # Next.js pages
@@ -92,7 +125,7 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 ## 📄 License
 
-MIT License. See [LICENSE](LICENSE) for details.
+CC0 1.0 Universal. See [LICENSE](LICENSE) for details.
 
 ---
 
@@ -103,5 +136,7 @@ For questions or feedback, open an issue or contact the maintainer.
 ---
 
 <p align="center">
-  <b>Made with ❤️ using AI</b>
+  <img src="https://readme-arts.vercel.app/api/sparkle?color=%238a2be2" width="120" alt="sparkle"/>
+  <br/>
+  <b>Made with ❤️ and AI magic</b>
 </p>
