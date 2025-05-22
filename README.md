@@ -1,4 +1,4 @@
-> AI-powered app to generate, edit, and share GIFs from text prompts with a modern UI.
+
 
 # 🎬 GIFMaker
 
