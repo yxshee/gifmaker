@@ -35,8 +35,8 @@
 ## 🖼️ Screenshots
 
 <div align="center">
-  <img src="docs/screenshot1.png" alt="Main UI" width="350" style="border-radius:12px;box-shadow:0 4px 20px #8a2be233;">
-  <img src="docs/screenshot2.png" alt="GIF Output" width="350" style="border-radius:12px;box-shadow:0 4px 20px #8a2be233;">
+  <img src="assets/01.png" alt="Main UI" width="350" style="border-radius:12px;box-shadow:0 4px 20px #8a2be233;">
+  <img src="assets/02.png" alt="GIF Output" width="350" style="border-radius:12px;box-shadow:0 4px 20px #8a2be233;">
   <br/>
   <em>Gallery: Main interface and generated GIF output</em>
 </div>
@@ -136,7 +136,6 @@ For questions or feedback, open an issue or contact the maintainer.
 ---
 
 <p align="center">
-  <img src="https://readme-arts.vercel.app/api/sparkle?color=%238a2be2" width="120" alt="sparkle"/>
-  <br/>
+
   <b>Made with ❤️ and AI magic</b>
 </p>
