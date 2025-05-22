@@ -30,9 +30,9 @@
 
 ## 🖼️ Screenshots
 
-<div align="center">
-  <img src="assets/01.png" alt="Main UI" width="350" style="border-radius:12px;box-shadow:0 4px 20px #8a2be233;">
-  <img src="assets/02.png" alt="GIF Output" width="350" style="border-radius:12px;box-shadow:0 4px 20px #8a2be233;">
+ <div align="center">
+  <img src="assets/01.png" alt="Main UI" width="49%" style="border-radius:12px;box-shadow:0 4px 20px #8a2be233;">
+  <img src="assets/02.png" alt="GIF Output" width="49%" style="border-radius:12px;box-shadow:0 4px 20px #8a2be233;">
   <br/>
   <em>Gallery: Main interface and generated GIF output</em>
 </div>
